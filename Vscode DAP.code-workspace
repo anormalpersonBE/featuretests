@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Databricks-VSCode/db-notebook-runner/Workspace/Users/bryan.volckaert@roularta.be/feature tests"
+		},
+		{
+			"path": "../Databricks-VSCode/db-notebook-runner/Workspace/Repos/bryan.volckaert@roularta.be/dap/src"
+		}
+	],
+	"settings": {
+		"python.envFile": "${workspaceFolder}\\.databricks\\.databricks.env",
+		"databricks.python.envFile": "${workspaceFolder}/.env",
+		"jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
+		"jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------"
+	}
+}
